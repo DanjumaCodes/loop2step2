@@ -1,0 +1,106 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body  {
+    background-color: rgb(8, 2, 2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 4rem;
+}
+main {
+    background-color: yellow;
+    height: 29rem;
+    width: 24rem;
+}
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 14rem;
+    padding-top: 2rem;
+}
+.multiplication-sign {
+    font-size: 24px;
+    cursor: pointer;
+}
+.multiplication-sign:hover {
+    color: rgba(0, 0, 0, 0.518);
+}
+.lower-text {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    gap: 2rem;
+    padding-top: 23rem;
+    padding-right: 2rem;
+    cursor: pointer;
+}
+.cancel {
+    cursor: pointer;
+}
+.cancel:hover {
+    color: rgba(0, 0, 0, 0.518);
+}
+.save {
+    cursor: pointer;
+}
+.save:hover {
+    color:rgba(0, 0, 0, 0.518) ;
+}
+.user-profile {
+    position: absolute;
+    height: 20rem;
+    width: 24rem;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    margin-left: 3rem;
+}
+img {
+    position: static;
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+    margin-right: 15rem;
+    margin-bottom: 21rem;
+}
+.header-2 {
+color: rgba(0, 0, 0, 0.401);
+font-size: smaller;
+}
+.info {
+   border: none;            
+    border-bottom: 2px solid #33333360; 
+    outline: none;             
+    padding: 5px 0;             
+    width: 100%;  
+}
+.profile {
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+gap: 1rem;
+position: fixed;
+left: 0.5;
+}
+.usernames {
+padding-right: 3rem;
+}
+.first-name {
+padding-right: 3rem;
+}
+.last-name {
+padding-right: 3rem;
+}
+.email {
+    padding-right: 5rem;
+}
+.bios {
+    padding-right: 6rem;
+}
